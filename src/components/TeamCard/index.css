@@ -1,0 +1,40 @@
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 180px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffffff33;
+}
+.team-logo {
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+.team-name {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+}
+.link {
+  text-decoration: none;
+  width: 40%;
+  margin: 10px;
+}
+@media screen and (max-width: 767px) {
+  .team-logo {
+    height: 50px;
+    width: 50px;
+  }
+  .team-name {
+    font-size: 12px;
+  }
+  .list-item {
+    padding: 5px;
+  }
+  .link {
+    width: 45%;
+    margin: 5px;
+  }
+}
